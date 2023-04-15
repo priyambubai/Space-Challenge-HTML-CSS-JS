@@ -1,0 +1,574 @@
+/* For Mobile Screen */
+@media (min-width:375px) {
+
+    .logo {
+        width: 40px;
+        position: absolute;
+        left: 3%;
+        top: 20px;
+    }
+
+    .expand-icon {
+        display: inline-block;
+        position: absolute;
+        right: 3%;
+        top: 30px;
+    }
+
+    .close-icon {
+        display: none;
+        position: absolute;
+        right: 3%;
+        top: 30px;
+        z-index: 1;
+    }
+
+    .top-hr {
+        display: none;
+    }
+
+    body {
+        background-image: url("../assets/technology/background-technology-mobile.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    .top-tab {
+        background-image: linear-gradient(270deg, #192a46, #f7f7f708);
+        backdrop-filter: blur(24px);
+        width: 60%;
+        height: 100%;
+        display: none;
+        padding-left: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 100px;
+        z-index: 1;
+    }
+
+    strong {
+        display: inline-block;
+    }
+
+    .top-tab-heading {
+        display: block;
+        margin-right: 0;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        color: white;
+        text-decoration: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom-color: rgba(255, 255, 255, 0);
+        margin-top: 2.8125rem;
+        margin-bottom: 2.8125rem;
+    }
+
+    .active-tab {
+        border-right: solid;
+    }
+
+    .technology-div {
+        display: block;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .technology-div-heading {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        font-weight: normal;
+    }
+
+    .technology-div-heading-01 {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.25);
+    }
+
+    .technology-page-selector {
+        display: block;
+        position: absolute;
+        top: 550px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .technology-body {
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        top: 620px;
+        left: calc(50% - 90%/2);
+        text-align: center;
+    }
+
+    .technology-terminology {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.1rem;
+        font-weight: normal;
+        color: #D0D6F9;
+    }
+
+    .technology-h1 {
+        font-family: 'Bellefair', serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-top: 0.625rem;
+        margin-bottom: 1.125rem;
+    }
+
+    .technology-p {
+        display: inline-block;
+        width: 100%;
+        font-family: 'Barlow', sans-serif;
+        font-size: 0.9375rem;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0;
+        letter-spacing: 0.02rem;
+        color: #D0D6F9;
+    }
+
+    .technology-image-mobile {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 200px;
+        width: 100%;
+        height: 312.031px;
+    }
+
+    .technology-image-desktop {
+        display: none;
+    }
+
+    .btn {
+        margin-right: 1rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .btn-div {
+        background-color: none;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: solid rgba(255, 255, 255, 0.5) 1px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .btn-div-active {
+        background-color: white;
+        border: solid rgb(255, 255, 255) 1px;
+        color: #0B0D17;
+    }
+
+    .btn-text {
+        margin: auto;
+        font-family: 'Bellefair', serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    a:hover {
+        cursor: url(../assets/cursor/Pointer\ Copy\ 25.png), pointer;
+    }
+}
+
+/* For Tablet Screen */
+@media (min-width:768px) {
+    .logo {
+        position: absolute;
+        left: 3%;
+        top: 20px;
+    }
+
+    .expand-icon {
+        display: none;
+        position: absolute;
+        right: 3%;
+        top: 30px;
+    }
+
+    .top-hr {
+        display: none;
+    }
+
+    body {
+        background-image: url("../assets/home/background-home-tablet.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    .top-tab {
+        background-image: linear-gradient(270deg, #192a46, #f7f7f708);
+        backdrop-filter: blur(16px);
+        width: 50%;
+        height: auto;
+        display: inline-block;
+        padding-left: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 0;
+    }
+
+    strong {
+        display: none;
+    }
+
+    .top-tab-heading {
+        display: inline-block;
+        margin-right: 4%;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        color: white;
+        text-decoration: none;
+        padding-top: 2.8125rem;
+        padding-bottom: 2.8125rem;
+        border-bottom-color: rgba(255, 255, 255, 0);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .active-tab {
+        border-bottom: solid;
+        border-right: none;
+    }
+
+    .technology-div {
+        display: inline-block;
+        position: absolute;
+        top: 125px;
+        left: 8%;
+        width: auto;
+        text-align: left;
+    }
+
+    .technology-div-heading {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.25em;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        font-weight: normal;
+    }
+
+    .technology-div-heading-01 {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.25);
+    }
+
+    .technology-page-selector {
+        display: inline-block;
+        position: absolute;
+        top: 580px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .technology-body {
+        width: 85%;
+        display: inline-block;
+        position: absolute;
+        top: 670px;
+        left: calc(50% - 85%/2);
+        text-align: center;
+    }
+
+    .technology-terminology {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.1rem;
+        font-weight: normal;
+        color: #D0D6F9;
+    }
+
+    .technology-h1 {
+        font-family: 'Bellefair', serif;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-top: 0.625rem;
+        margin-bottom: 1.125rem;
+    }
+
+    .technology-p {
+        display: inline-block;
+        width: 75%;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-top: 0;
+        letter-spacing: 0.02rem;
+        color: #D0D6F9;
+    }
+
+    .technology-image-mobile {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 220px;
+        width: 100%;
+        height: 312.031px;
+    }
+
+    .technology-image-desktop {
+        display: none;
+    }
+
+    .btn {
+        margin-right: 1rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .btn-div {
+        background-color: none;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: solid rgba(255, 255, 255, 0.5) 1px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .btn-div-active {
+        background-color: white;
+        border: solid rgb(255, 255, 255) 1px;
+        color: #0B0D17;
+    }
+
+    .btn-text {
+        margin: auto;
+        font-family: 'Bellefair', serif;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    a:hover {
+        cursor: url(../assets/cursor/Pointer\ Copy\ 25.png), pointer;
+    }
+}
+
+/*For Desktop Screen*/
+@media (min-width:1400px) {
+    .logo {
+        position: absolute;
+        left: 3%;
+        top: 64px;
+    }
+
+    .expand-icon {
+        display: none;
+        position: absolute;
+        right: 3%;
+        top: 30px;
+    }
+
+    .top-hr {
+        width: 40%;
+        display: inline-block;
+        border-color: rgba(255, 255, 255, 0.5);
+        border-width: 1px 0 0;
+        margin: 0;
+        position: absolute;
+        top: 5.5rem;
+        left: 8%;
+    }
+
+    body {
+        background-image: url("../assets/home/background-home-desktop.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    .top-tab {
+        background-image: linear-gradient(270deg, #192a46, #f7f7f708);
+        backdrop-filter: blur(16px);
+        width: 50%;
+        height: auto;
+        display: inline-block;
+        padding-left: 7em;
+        position: absolute;
+        top: 2em;
+        right: 0;
+        padding-top: 0;
+    }
+
+    strong {
+        display: inline-block;
+    }
+
+    .top-tab-heading {
+        display: inline-block;
+        margin-right: 3rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        color: white;
+        text-decoration: none;
+        padding-top: 2.8125rem;
+        padding-bottom: 2.8125rem;
+        border-bottom-color: rgba(255, 255, 255, 0);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .active-tab {
+        border-bottom: solid;
+        border-right: none;
+    }
+
+    .top-tab-heading:hover {
+        border-bottom: solid;
+        border-color: rgba(255, 255, 255, 0.295);
+    }
+
+    .technology-div {
+        display: inline-block;
+        position: absolute;
+        top: 250px;
+        left: 8%;
+        width: auto;
+        text-align: left;
+    }
+
+    .technology-div-heading {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.2rem;
+        font-weight: normal;
+    }
+
+    .technology-div-heading-01 {
+        color: rgba(255, 255, 255, 0.25);
+    }
+
+    .technology-page-selector {
+        display: inline-block;
+        position: absolute;
+        top: 410px;
+        left: 8%;
+        width: auto;
+        text-align: center;
+    }
+
+    .technology-body {
+        width: 40%;
+        display: inline-block;
+        position: absolute;
+        top: 380px;
+        left: 16%;
+        text-align: left;
+    }
+
+    .technology-terminology {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.1rem;
+        font-weight: normal;
+        color: #D0D6F9;
+    }
+
+    .technology-h1 {
+        font-family: 'Bellefair', serif;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-top: 0.625rem;
+        margin-bottom: 1.125rem;
+    }
+
+    .technology-p {
+        width: 75%;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-top: 0;
+        letter-spacing: 0.02rem;
+        color: #D0D6F9;
+    }
+
+    .technology-image-mobile {
+        display: none;
+    }
+
+    .technology-image-desktop {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 320px;
+    }
+
+    .btn {
+        margin-right: auto;
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn-div {
+        background-color: none;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: solid rgba(255, 255, 255, 0.5) 1px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .btn-div-active {
+        background-color: white;
+        border: solid rgb(255, 255, 255) 1px;
+        color: #0B0D17;
+    }
+
+    .btn-div:hover {
+        border: solid rgb(255, 255, 255) 1px;
+    }
+
+    .btn-text {
+        margin: auto;
+        font-family: 'Bellefair', serif;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    a:hover {
+        cursor: url(../assets/cursor/Pointer\ Copy\ 25.png), pointer;
+    }
+}
